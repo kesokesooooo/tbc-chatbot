@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBC hi app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+          <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-arial/css/bpg-arial.min.css"> 
+</head>
+<body>
+
+    <div class="thesite">
+        <div class="whole-site">
+            <div class="hi-logo">
+                <img src="hi.png" alt="Hi Logo">
+            </div>
+    
+            <div class="container">
+    
+                    <div class="credit-card">
+                        <img src="tbcpinkbarati.jpg" alt="">
+                    </div>
+                <div  class="time-img"><img src="time.png" alt=""></div>
+                
+           
+    
+    
+                <div class="random-photos">
+                    <div class="image">
+                        <img src="ico1.jpg" alt="" height="200">
+                        <p class="image-text">შევსება</p>
+                    </div>
+                    <div class="image">
+                        <img src="ico2.jpg" alt="" height="200">
+                        <p class="image-text">გადარიცხვა</p>
+                    </div>
+                    <div class="image">
+                        <img src="ico3.jpg" alt="" height="200">
+                        <p class="image-text">განაღდება</p>
+                    </div>
+                </div>
+            </div>
+    
+            
+    
+          <!-- navigaciaa -->
+            <nav class="bottom-nav">
+                <ul>
+                    <li><i class="fa-solid fa-house" aria-label="Home"></i></li>
+                    <li><i class="fa-regular fa-credit-card" aria-label="Payments"></i></li>
+                    <li class="toggler-container">
+                        <button class="chat-toggler" onclick="toggleChat()">
+                            <img src="avatarnobakc.png" alt="Chat Icon" class="toggler-icon" />
+                        </button>
+                    </li>
+                    <li><i class="fa-solid fa-shop" aria-label="Shop"></i></li>
+                    <li><i class="fa-regular fa-face-smile" aria-label="Profile"></i></li>
+                </ul>
+            </nav>
+    
+            <div id="chatContainer" class="chat-container">
+                <div class="avatar-container">
+                    <img src="whiteavatar.png" alt="Chatbot Avatar" class="avatar" />
+                    <h2>Chatbot</h2>
+                </div>
+    
+                <div id="chatbox" class="chatbox"></div>
+    
+                <div class="input-container">
+                    <input type="text" id="userInput" placeholder="Ask me something..." autofocus />
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="page-bottom">
+            <div class="adds-colum"> <img src="adds.jpg" alt=""  width="70%"></div>
+        </div>
+    
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+
+    </div>
+ 
+    <script src="app.js"></script>
+</body>
+</html>
